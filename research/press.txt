@@ -1,0 +1,107 @@
+- banner:
+  - link "Tangerine home":
+    - /url: /
+    - text: Tangerine
+  - navigation "Main navigation":
+    - link "Press contact":
+      - /url: mailto:hello@leapstudio.io?subject=RE%3A%20Tangerine%20Press
+    - link "Download kit ↓":
+      - /url: /downloads/tangerine-press-kit.zip
+- main:
+  - region "Tangerine for Mac":
+    - paragraph: Press kit
+    - heading "Tangerine for Mac" [level=1]
+    - paragraph: Tangerine is an offline file converter for Mac that brings conversion, editing tools, and file actions to your pointer while you drag a file.
+    - link "Download all assets ↓":
+      - /url: /downloads/tangerine-press-kit.zip
+    - link "hello@leapstudio.io":
+      - /url: mailto:hello@leapstudio.io?subject=RE%3A%20Tangerine%20Press
+  - region "Details":
+    - heading "Details" [level=2]
+    - term: App
+    - definition: Tangerine
+    - term: Price
+    - definition: $29.99 USD, one-time purchase
+    - term: Platform
+    - definition: Apple silicon Mac
+    - term: Requirements
+    - definition: macOS 13 or later
+    - term: Availability
+    - definition: Available now
+    - term: Public launch
+    - definition: 7 September 2026
+    - term: Developer
+    - definition: Leap Studio
+    - term: Version
+    - definition: "1.4"
+    - term: Website
+    - definition:
+      - link "tangerineformac.com":
+        - /url: https://tangerineformac.com/
+  - region "Description":
+    - heading "Description" [level=2]
+    - paragraph: Tangerine is an offline file converter for Mac that brings conversion, editing tools, and file actions to your pointer while you drag a file.
+    - paragraph: Tangerine converts images, video, audio, documents, presentations, spreadsheets, subtitles, and archives without requiring a separate app window. Drag a file, then tap Shift to choose an output format, Command for file-specific editing tools, or Control for actions such as AirDrop, Float, Copy, Move, Copy Path, and Terminal. Release the key and the wheel stays open until you drop. Processing stays on the Mac, and Tangerine costs $29.99 as a one-time purchase.
+    - paragraph: "File conversion usually interrupts the task already in progress: open a website or utility, upload or import a file, choose settings, wait, and then find the result. Tangerine puts that workflow at the cursor. Its radial menus appear around the dragged file, expose only relevant formats and tools, and save converted or edited copies beside the original."
+  - region "Key features":
+    - heading "Key features" [level=2]
+    - list:
+      - listitem: Drag a file, then tap Shift to open format conversion at the cursor.
+      - listitem: Drag a file, then tap Command to open file-specific editing tools.
+      - listitem: Tap Control during a drag for AirDrop, Float, Copy, Move, Copy Path, and Terminal.
+      - listitem: 275 conversion paths cover images, video, audio, documents, presentations, spreadsheets, subtitles, and archives.
+      - listitem: File tools handle compression, metadata, cropping, trimming, splitting, merging, and more.
+      - listitem: Files are processed locally and are never uploaded to Tangerine.
+      - listitem: Conversions and edits save a new copy. File actions also work with folders and mixed selections.
+  - region "Images":
+    - heading "Images" [level=2]
+    - paragraph: High-resolution product images ready for editorial use. Open any image to download the original.
+    - link "Download everything ↓":
+      - /url: /downloads/tangerine-press-kit.zip
+    - link "Tangerine app icon App icon · PNG · 1024 × 1024":
+      - /url: /press/tangerine-app-icon.png
+      - img "Tangerine app icon"
+      - generic: App icon · PNG · 1024 × 1024
+    - link "Tangerine advanced tools radial menu on the Mac desktop Advanced tools":
+      - /url: /press/screenshots/advanced-tools.png
+      - img "Tangerine advanced tools radial menu on the Mac desktop"
+      - generic: Advanced tools
+    - link "Tangerine image conversion radial menu Conversion wheel":
+      - /url: /press/screenshots/conversion-wheel.png
+      - img "Tangerine image conversion radial menu"
+      - generic: Conversion wheel
+    - link "Tangerine photo editor window Edit photo":
+      - /url: /press/screenshots/edit-photo.png
+      - img "Tangerine photo editor window"
+      - generic: Edit photo
+    - link "Tangerine background editor window Add a background":
+      - /url: /press/screenshots/add-background.png
+      - img "Tangerine background editor window"
+      - generic: Add a background
+    - link "Tangerine audio editing windows Audio tools":
+      - /url: /press/screenshots/audio-tools.png
+      - img "Tangerine audio editing windows"
+      - generic: Audio tools
+  - region "Product video":
+    - heading "Product video" [level=2]
+    - generic "Tangerine product demonstration"
+    - link "Download MP4":
+      - /url: /videos/tangerine-demo.mp4
+      - text: Download MP4 ↓
+  - region "Press contact":
+    - heading "Press contact" [level=2]
+    - paragraph: For questions, review access, or additional assets, email Leap Studio directly.
+    - link "hello@leapstudio.io ↗":
+      - /url: mailto:hello@leapstudio.io?subject=RE%3A%20Tangerine%20Press
+- contentinfo:
+  - link "Tangerine":
+    - /url: /
+    - text: Tangerine
+  - link "Press kit":
+    - /url: /press
+  - link "Privacy":
+    - /url: /privacy
+  - link "Contact support":
+    - /url: mailto:hello@leapstudio.io?subject=RE%3A%20Tangerine%20App
+  - link "Request feature":
+    - /url: mailto:hello@leapstudio.io?subject=RE%3A%20Tangerine%20Feature%20Request

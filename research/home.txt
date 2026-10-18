@@ -1,0 +1,335 @@
+- banner:
+  - link "Tangerine home":
+    - /url: "#"
+    - text: Tangerine
+  - navigation "Main navigation":
+    - link "Features":
+      - /url: "#details"
+    - link "Download Tangerine on the Mac App Store":
+      - /url: https://apps.apple.com/us/app/tangerine-file-converter/id6813034065?mt=12
+      - img "Download on the Mac App Store"
+- main:
+  - region "Tangerine video demo":
+    - generic "Watch Tangerine in action"
+  - region "The zero-click offline file converter.":
+    - heading "The zero-click offline file converter." [level=1]:
+      - text: The zero-click
+      - text: offline file converter.
+    - paragraph: Drag a file, tap Shift, and drop. Turn files into the formats you need without breaking your flow.
+    - paragraph: Everything happens locally on your Mac.
+    - generic "Interactive file conversion demo":
+      - status:
+        - generic: Drag this file
+      - button "landscape.jpg":
+        - generic: landscape.jpg
+      - button "mixtape.mp3":
+        - generic: mixtape.mp3
+      - button "weekend.mov":
+        - generic: weekend.mov
+      - button "field-notes.pdf":
+        - generic: field-notes.pdf
+      - button "figures.png":
+        - generic: figures.png
+      - button "holiday.heic":
+        - generic: holiday.heic
+      - button "little-project.zip":
+        - generic: little-project.zip
+      - button "something.png":
+        - generic: something.png
+  - region "Conversion and editing tools":
+    - strong: "275"
+    - heading "Conversion options" [level=2]
+    - paragraph: Across images, video, audio, documents, spreadsheets, and archives.
+    - strong: "26"
+    - heading "Advanced file tools" [level=2]
+    - paragraph: Compress, crop, trim, split, merge, and more.
+    - strong: "6"
+    - heading "File actions" [level=2]
+    - paragraph: AirDrop, Float, Copy, Move, Copy Path, and Terminal.
+  - region "Image tools":
+    - tablist "File type":
+      - tab "Images" [selected]
+      - tab "Video"
+      - tab "Audio"
+      - tab "PDF"
+      - tab "Documents"
+      - tab "Slides"
+      - tab "Spreadsheets"
+      - tab "EPUB"
+      - tab "Subtitles"
+      - tab "Archives"
+    - tabpanel "Images":
+      - article:
+        - heading "Image tools" [level=2]
+        - region "Convert formats":
+          - img "Drag a file, then tap Shift":
+            - generic: ⇧
+            - text: shift
+          - heading "Convert formats" [level=3]
+          - generic "File format menu preview":
+            - group "Choose a format to preview":
+              - button "Preview conversion to PNG" [pressed]:
+                - generic: PNG
+              - button "Preview conversion to WEBP":
+                - generic: WEBP
+              - button "Preview conversion to HEIC":
+                - generic: HEIC
+              - button "Preview conversion to TIFF":
+                - generic: TIFF
+              - button "Preview conversion to AVIF":
+                - generic: AVIF
+              - button "Preview conversion to BMP":
+                - generic: BMP
+              - button "Preview conversion to PDF":
+                - generic: PDF
+            - generic: PNG
+          - generic: Convert to PNG
+        - region "File tools":
+          - img "Drag a file, then tap Command":
+            - generic: ⌘
+            - text: command
+          - heading "File tools" [level=3]
+          - generic "Advanced file tools preview":
+            - group "Choose a tool to preview":
+              - button "Preview Compress" [pressed]:
+                - generic: COMPRESS
+              - button "Preview Metadata":
+                - generic: METADATA
+              - button "Preview Edit Photo":
+                - generic: EDIT
+              - button "Preview Annotate Photo":
+                - generic: ANNOTATE
+              - button "Preview Add BG":
+                - generic: ADD BG
+              - button "Preview Crop Image":
+                - generic: CROP
+              - button "Preview Redact Photo":
+                - generic: REDACT
+            - generic: COMPRESS
+          - generic: Compress
+        - paragraph: Start dragging, then tap a key. The wheel stays open until you drop. Change the keys in Settings.
+      - 'link "Compress images: view window and details"':
+        - /url: /tools#tool-compress
+        - generic: photo.jpg
+        - generic: →
+        - generic: Compressed.jpg
+        - heading "Compress images" [level=3]
+        - paragraph: Choose a target file size, percentage reduction, or preset. Resize while compressing one image or a selection.
+        - text: View details
+        - generic: ↗
+      - 'link "Edit metadata: view window and details"':
+        - /url: /tools#tool-removeMetadata
+        - text: Location
+        - generic: —
+        - text: Camera
+        - generic: —
+        - text: Author
+        - generic: —
+        - heading "Edit metadata" [level=3]
+        - paragraph: Edit camera and location tags, or remove metadata from a selection.
+        - text: View details
+        - generic: ↗
+      - 'link "Edit photos: view window and details"':
+        - /url: /tools#tool-editImage
+        - heading "Edit photos" [level=3]
+        - paragraph: Adjust exposure, color, detail, effects, and more while previewing the result.
+        - text: View details
+        - generic: ↗
+      - 'link "Annotate photos: view window and details"':
+        - /url: /tools#tool-annotateImage
+        - heading "Annotate photos" [level=3]
+        - paragraph: Add arrows, shapes, text, and numbered callouts to a photo.
+        - text: View details
+        - generic: ↗
+      - 'link "Add a background: view window and details"':
+        - /url: /tools#tool-frameImage
+        - heading "Add a background" [level=3]
+        - paragraph: Place a photo on a solid color, gradient, or another image. Choose the aspect ratio, spacing, and corner radius.
+        - text: View details
+        - generic: ↗
+      - 'link "Crop images: view window and details"':
+        - /url: /tools#tool-cropImage
+        - heading "Crop images" [level=3]
+        - paragraph: Crop one image or a selection. Choose an aspect ratio or enter exact output dimensions.
+        - text: View details
+        - generic: ↗
+      - 'link "Redact photos: view window and details"':
+        - /url: /tools#tool-redactImage
+        - heading "Redact photos" [level=3]
+        - paragraph: Detect faces or text locally, then cover private areas with a solid color or blur.
+        - text: View details
+        - generic: ↗
+      - article:
+        - generic: →
+        - generic: Multiple files
+        - heading "Create a PDF" [level=3]
+        - paragraph: Combine selected images into one PDF, with a page per image. Mix image formats in the same selection.
+      - 'link "Make a collage: view window and details"':
+        - /url: /tools#tool-createCollage
+        - generic: Multiple files
+        - heading "Make a collage" [level=3]
+        - paragraph: Combine images in a grid, row, column, or featured layout. Adjust order, spacing, corners, and background.
+        - text: View details
+        - generic: ↗
+  - region "File actions":
+    - heading "File actions" [level=2]
+    - paragraph: Drag any file or folder, then tap Control.
+    - region "File actions":
+      - img "Drag a file or folder, then tap Control":
+        - generic: ⌃
+        - text: control
+      - heading "File actions" [level=3]
+      - generic "File actions menu preview":
+        - group "Choose a file action to preview":
+          - button "Preview AirDrop" [pressed]:
+            - generic: AIRDROP
+          - button "Preview Float":
+            - generic: FLOAT
+          - button "Preview Copy":
+            - generic: COPY
+          - button "Preview Move":
+            - generic: MOVE
+          - button "Preview Copy Path":
+            - generic: COPY PATH
+          - button "Preview Terminal":
+            - generic: TERMINAL
+        - generic: AIRDROP
+      - generic: AirDrop
+    - article:
+      - heading "AirDrop" [level=3]
+      - paragraph: Share files and folders through the macOS recipient picker.
+    - article:
+      - heading "Float" [level=3]
+      - paragraph: Keep files in a floating shelf. Pin it to a screen edge and drag files into another app.
+    - article:
+      - heading "Copy" [level=3]
+      - paragraph: Copy files to the clipboard, ready to paste in Finder.
+    - article:
+      - heading "Move" [level=3]
+      - paragraph: Choose a destination folder and move the originals there.
+    - article:
+      - heading "Copy Path" [level=3]
+      - paragraph: Copy full file paths as text, with one path per line for a selection.
+    - article:
+      - heading "Terminal" [level=3]
+      - paragraph: Open a folder, or a file’s containing folder, in Terminal or iTerm2.
+    - paragraph: Works with folders, mixed selections, and files that have no conversion tools. File actions do not use your conversion allowance.
+  - region "Supported formats":
+    - heading "Supported formats" [level=2]
+    - heading "Images" [level=3]
+    - paragraph:
+      - text: JPG
+      - generic: PNG
+      - text: WebP
+      - generic: HEIC
+      - text: TIFF
+      - generic: AVIF
+      - text: BMP
+    - generic: PDF export · SVG input only
+    - heading "Audio" [level=3]
+    - paragraph:
+      - text: MP3
+      - generic: M4A
+      - text: WAV
+      - generic: FLAC
+      - text: OGG
+      - generic: Opus
+      - text: AIFF
+      - generic: WMA
+    - heading "Video" [level=3]
+    - paragraph:
+      - text: MP4
+      - generic: MOV
+      - text: MKV
+      - generic: WebM
+      - text: AVI
+      - generic: WMV
+      - text: GIF
+    - generic: MP3 export
+    - heading "PDF" [level=3]
+    - paragraph:
+      - generic: PDF →
+      - generic: DOCX
+      - generic: PAGES
+      - generic: PPTX
+      - generic: XLSX
+      - generic: JPG
+      - generic: PNG
+      - generic: EPUB
+      - generic: TXT
+      - generic: MD
+    - generic: All pages · images at 300 DPI
+    - heading "Documents" [level=3]
+    - paragraph:
+      - text: DOCX
+      - generic: PAGES
+      - text: Markdown
+      - generic: TXT
+      - text: EPUB
+    - generic: RTF, RTFD & text clippings input · HTML export
+    - heading "Slides" [level=3]
+    - paragraph:
+      - generic: PPT / PPTX →
+      - generic: PDF
+      - generic: JPG
+      - generic: PNG
+    - generic: PPT input only · PDF to PPTX
+    - heading "Spreadsheets" [level=3]
+    - paragraph:
+      - text: XLSX
+      - generic: ODS
+      - text: CSV
+      - generic: TSV
+    - generic: PDF export · XLS input only
+    - heading "Subtitles" [level=3]
+    - paragraph:
+      - text: SRT
+      - generic: VTT
+    - generic: TXT export
+    - heading "Archives" [level=3]
+    - paragraph:
+      - text: ZIP
+      - generic: TAR
+      - text: GZIP
+    - generic: RAR input only
+  - region "Your files stay on your Mac.":
+    - paragraph: Privacy
+    - heading "Your files stay on your Mac." [level=2]
+    - paragraph: Online converters need you to upload a copy of your file. That puts private documents, photos, and metadata on a server you do not control.
+    - article:
+      - generic: ↑
+      - heading "Uploading adds risk" [level=3]
+      - paragraph: Your file leaves your Mac, so you have to trust how another service stores, processes, and deletes it.
+    - article:
+      - generic: ⌂
+      - heading "Tangerine works locally" [level=3]
+      - paragraph: Conversions and file tools run on your Mac. Your files are never uploaded to us.
+  - region "Less busywork. More flow.":
+    - paragraph: Get Tangerine
+    - heading "Less busywork. More flow." [level=2]:
+      - text: Less busywork.
+      - text: More flow.
+    - paragraph: Download Tangerine for your Mac from the Mac App Store.
+    - heading "Tangerine for Mac" [level=3]
+    - list:
+      - listitem: ✓ All 275 conversion options and 26 file tools, plus 6 file actions
+      - listitem: ✓ Convert, compress, crop, trim, split, and merge
+      - listitem: ✓ Files processed locally on your Mac, without uploads
+    - link "Download Tangerine on the Mac App Store":
+      - /url: https://apps.apple.com/us/app/tangerine-file-converter/id6813034065?mt=12
+      - img "Download on the Mac App Store"
+    - paragraph: For Apple silicon Macs running macOS 13 or later.
+- contentinfo:
+  - link "Tangerine":
+    - /url: "#"
+    - text: Tangerine
+  - link "Press kit":
+    - /url: /press
+  - link "Privacy":
+    - /url: /privacy
+  - link "Contact support":
+    - /url: mailto:hello@leapstudio.io?subject=RE%3A%20Tangerine%20App
+  - link "Request feature":
+    - /url: mailto:hello@leapstudio.io?subject=RE%3A%20Tangerine%20Feature%20Request
+- status
+- paragraph: Drag a file, then tap Shift for conversions, Command for file tools, or Control for actions. Release the key and keep dragging; the wheel stays open until you drop or cancel. Or press Enter on a file to open the format menu, then use Command or Control to switch wheels. Use arrow keys to choose, Enter to apply, and Escape to cancel. On a touch screen, drag to move or hold a file briefly before dragging to convert. All operations on this page are simulated.

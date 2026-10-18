@@ -1,0 +1,30 @@
+name: Bug report
+description: Report a reproducible problem in the Windows app
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Windows version, app commit/version, display scale and monitors. Include FFmpeg/PDF/LibreOffice versions when relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include the file type and exact drag/keyboard sequence. Use synthetic files where possible.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or diagnostic details
+      description: Review logs and images for personal paths or file contents before sharing. Report security issues privately.

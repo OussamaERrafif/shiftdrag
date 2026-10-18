@@ -1,0 +1,37 @@
+name: Windows build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Framework build and functional checks
+    runs-on: windows-2022
+    timeout-minutes: 15
+    defaults:
+      run:
+        shell: powershell
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check documentation links and screenshots
+        run: python scripts/check-docs.py
+      - name: Compile native Windows app
+        run: .\build.ps1
+      - name: Run available self-tests
+        run: |
+          $testProcess = Start-Process -FilePath .\build\ShiftDrag.exe -ArgumentList '--self-test' -Wait -PassThru
+          Get-Content .\test-results\latest.txt
+          if ($testProcess.ExitCode -ne 0) { throw 'Self-tests failed.' }
+      - name: Upload test report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: windows-test-report
+          path: test-results/latest.txt
+          if-no-files-found: warn

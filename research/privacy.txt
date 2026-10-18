@@ -1,0 +1,37 @@
+- banner:
+  - link "Tangerine home":
+    - /url: /
+    - text: Tangerine
+  - navigation "Main navigation":
+    - link "Privacy contact":
+      - /url: mailto:hello@leapstudio.io?subject=RE%3A%20Tangerine%20Privacy
+- main:
+  - region "Tangerine for Mac":
+    - paragraph: Privacy policy
+    - heading "Tangerine for Mac" [level=1]
+    - paragraph: Last updated 17 September 2026. Tangerine is made by Leap Studio.
+  - region "Summary":
+    - heading "Summary" [level=2]
+    - paragraph: Tangerine converts and edits your files entirely on your Mac. Your files, their contents, and their names are never sent to Leap Studio or to anyone else.
+    - paragraph: Leap Studio does not collect personal information through the app. Tangerine contains no analytics, advertising, or tracking.
+  - region "Your files":
+    - heading "Your files" [level=2]
+    - paragraph: Every conversion, compression, and edit runs on your Mac. Results are saved beside the original file. macOS asks your permission before Tangerine can save into a folder, and that permission is stored only on your Mac so the app can keep saving there. Tangerine never uploads your files, and it has no server to upload them to.
+  - region "Contact":
+    - heading "Contact" [level=2]
+    - paragraph: Questions about privacy in Tangerine can go straight to Leap Studio.
+    - link "hello@leapstudio.io ↗":
+      - /url: mailto:hello@leapstudio.io?subject=RE%3A%20Tangerine%20Privacy
+  - region "Trademarks":
+    - heading "Trademarks" [level=2]
+    - paragraph: Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. Mac App Store is a service mark of Apple Inc.
+- contentinfo:
+  - link "Tangerine":
+    - /url: /
+    - text: Tangerine
+  - link "Press kit":
+    - /url: /press
+  - link "Privacy":
+    - /url: /privacy
+  - link "Contact support":
+    - /url: mailto:hello@leapstudio.io?subject=RE%3A%20Tangerine%20App

@@ -1,0 +1,171 @@
+- link "X":
+  - /url: /
+- main:
+  - button "Back":
+  - heading "Post" [level=2]
+  - 'heading "thameem on X: \"convert files with just drag + shift\"" [level=1]'
+  - status
+  - list:
+    - article:
+      - link "@th2049":
+        - /url: /th2049
+        - img "@th2049"
+      - link "thameem":
+        - /url: /th2049
+        - generic: thameem
+      - button "Verified account":
+      - link "@th2049":
+        - /url: /th2049
+        - generic: "@th2049"
+      - button "More":
+      - generic: convert files with just drag + shift
+      - button "Pause"
+      - group "Seek slider":
+        - slider "Seek slider": "9.6"
+      - button "Pause":
+      - generic: 00:09 / 00:21
+      - button "Unmute":
+      - button "Settings":
+      - button "Picture-in-Picture":
+      - link "Picture-in-Picture":
+        - /url: /th2049/status/2111477585461039241/video/1
+      - button "Full screen":
+      - link "Full screen":
+        - /url: /th2049/status/2111477585461039241/video/1
+      - link "3:21 PM · Oct 17, 2026":
+        - /url: /th2049/status/2111477585461039241
+      - generic: ·
+      - link "1.6M Views":
+        - /url: /th2049/status/2111477585461039241
+        - generic: 1.6M
+        - generic: Views
+      - link "Reply":
+        - /url: /compose/post?in_reply_to=2111477585461039241
+        - generic: "299"
+      - button "Repost":
+        - generic: 1.1K
+      - button "Like":
+        - generic: 22K
+      - button "Bookmark":
+        - generic: 15K
+      - button "Share":
+    - link:
+      - article:
+        - link "@th2049":
+          - /url: /th2049
+          - img "@th2049"
+        - link "thameem":
+          - /url: /th2049
+          - generic: thameem
+        - button "Verified account":
+        - link "@th2049":
+          - /url: /th2049
+          - generic: "@th2049"
+        - text: ·
+        - link "Oct 17":
+          - /url: /th2049/status/2111527214575726675
+        - button "More":
+        - link "tangerineformac.com":
+          - /url: https://tangerineformac.com/
+        - link "Reply":
+          - /url: /compose/post?in_reply_to=2111527214575726675
+          - generic: "12"
+        - button "Repost":
+          - generic: "31"
+        - button "Like":
+          - generic: "671"
+        - button "View count":
+          - generic: 73K
+        - button "Bookmark":
+        - button "Share":
+    - link:
+      - article:
+        - link "@maximkich":
+          - /url: /maximkich
+          - img "@maximkich"
+        - link "Maxim Kich":
+          - /url: /maximkich
+          - generic: Maxim Kich
+        - button "Verified account":
+        - link "@maximkich":
+          - /url: /maximkich
+          - generic: "@maximkich"
+        - text: ·
+        - link "Oct 17":
+          - /url: /maximkich/status/2111534037382865009
+        - button "More":
+        - generic: love it! gaming GUI is underappreciated
+        - link "View media":
+          - /url: /maximkich/status/2111534037382865009/photo/1
+        - link "Reply":
+          - /url: /compose/post?in_reply_to=2111534037382865009
+          - generic: "3"
+        - button "Repost":
+          - generic: "3"
+        - button "Like":
+          - generic: "586"
+        - button "View count":
+          - generic: 27K
+        - button "Bookmark":
+        - button "Share":
+  - status
+  - status
+  - complementary:
+    - heading "See all the replies" [level=2]
+    - link "Continue to X":
+      - /url: /i/jf/onboarding/web?mode=login&redirect_after_login=%2Fth2049%2Fstatus%2F2111477585461039241
+- complementary:
+  - heading "Log in or sign up for X" [level=2]
+  - paragraph: See what’s happening and join the conversation
+  - link "Continue with phone":
+    - /url: /i/jf/onboarding/web?mode=signup&redirect_after_login=%2Fth2049%2Fstatus%2F2111477585461039241
+    - generic: Continue with phone
+  - button "Continue with Apple":
+    - generic: Continue with Apple
+  - generic: Continue with Google
+  - button "Continuer avec Google. S'ouvre dans un nouvel onglet.":
+    - generic: Continuer avec Google
+  - iframe [id="gsi_987910_876385"]:
+    - button "Continue with Google. Opens in new tab":
+      - generic: Continue with Google
+  - generic: or
+  - link "Log in with username or email":
+    - /url: /i/jf/onboarding/web?mode=login&redirect_after_login=%2Fth2049%2Fstatus%2F2111477585461039241
+    - generic: Log in with username or email
+  - heading "Relevant people" [level=2]
+  - link "thameem":
+    - /url: /th2049
+    - img "Avatar"
+  - link "thameem @th2049":
+    - /url: /th2049
+    - generic: thameem
+    - generic: "@th2049"
+  - link "Follow":
+    - /url: /i/jf/onboarding/web?mode=login&redirect_after_login=%2Fth2049
+  - text: "iOS and macOS developer working on :"
+  - link "tangerineformac.com":
+    - /url: https://tangerineformac.com
+  - link "apps.apple.com/us/app/id68041…":
+    - /url: https://apps.apple.com/us/app/id6804172022
+  - navigation "Footer":
+    - link "Terms":
+      - /url: https://x.com/tos
+    - generic: ·
+    - link "Privacy":
+      - /url: https://x.com/privacy
+    - generic: ·
+    - link "Cookies":
+      - /url: https://support.x.com/articles/20170514
+    - generic: ·
+    - link "Accessibility":
+      - /url: https://help.x.com/resources/accessibility
+    - generic: ·
+    - link "Ads Info":
+      - /url: https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo
+    - generic: ·
+    - button "More":
+      - text: More
+    - generic: © 2026 X Corp.
+- button "Scan to get the app":
+  - generic: Scan to get the app
+- region "Notifications alt+T"

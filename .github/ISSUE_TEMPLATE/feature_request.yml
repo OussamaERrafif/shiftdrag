@@ -1,0 +1,19 @@
+name: Feature request
+description: Suggest a workflow, format, or UI improvement
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What workflow should improve?
+      description: Describe a concrete use case and current limitation.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested behavior
+      description: Include file formats, interaction details, and any alternatives you considered.
+    validations:
+      required: true

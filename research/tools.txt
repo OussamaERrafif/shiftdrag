@@ -1,0 +1,277 @@
+- banner:
+  - link "Tangerine home":
+    - /url: /
+    - text: Tangerine
+  - navigation "Main navigation":
+    - link "Features":
+      - /url: /#details
+    - link "Download Tangerine on the Mac App Store":
+      - /url: https://apps.apple.com/us/app/tangerine-file-converter/id6813034065?mt=12
+      - img "Download on the Mac App Store"
+- main:
+  - navigation "Tool windows":
+    - heading "Any file" [level=2]
+    - link "Compress":
+      - /url: "#tool-compress"
+    - link "Edit metadata":
+      - /url: "#tool-removeMetadata"
+    - heading "Images" [level=2]
+    - link "Edit photos":
+      - /url: "#tool-editImage"
+    - link "Annotate photos":
+      - /url: "#tool-annotateImage"
+    - link "Add a background":
+      - /url: "#tool-frameImage"
+    - link "Crop images":
+      - /url: "#tool-cropImage"
+    - link "Redact photos":
+      - /url: "#tool-redactImage"
+    - link "Create a collage":
+      - /url: "#tool-createCollage"
+    - heading "Video" [level=2]
+    - link "Trim video":
+      - /url: "#tool-trimVideo"
+    - link "Crop video":
+      - /url: "#tool-cropVideo"
+    - link "Change video speed":
+      - /url: "#tool-changeVideoSpeed"
+    - link "Join videos":
+      - /url: "#tool-joinVideos"
+    - link "Save video frames":
+      - /url: "#tool-videoSnapshots"
+    - link "Split video":
+      - /url: "#tool-splitVideo"
+    - link "Redact video":
+      - /url: "#tool-redactVideo"
+    - heading "Audio" [level=2]
+    - link "Normalize volume":
+      - /url: "#tool-normalizeAudio"
+    - link "Create an audio visualizer":
+      - /url: "#tool-audioToVideo"
+    - link "Trim audio":
+      - /url: "#tool-trimAudio"
+    - link "Convert audio channels":
+      - /url: "#tool-audioChannels"
+    - link "Bleep audio":
+      - /url: "#tool-redactAudio"
+    - heading "PDF" [level=2]
+    - link "Merge PDFs":
+      - /url: "#tool-mergePDF"
+    - link "Organize PDF pages":
+      - /url: "#tool-organizePDF"
+  - region "Tool details":
+    - article:
+      - figure:
+        - img "The Compress window in Tangerine"
+      - text: Any file
+      - heading "Compress" [level=2]
+      - paragraph: Reduce file size locally while keeping the original file untouched.
+      - list:
+        - listitem: ✓ Target a file size or percentage reduction
+        - listitem: ✓ Resize images while compressing
+    - article:
+      - figure:
+        - img "The Edit metadata window in Tangerine"
+      - text: Any file
+      - heading "Edit metadata" [level=2]
+      - paragraph: Inspect, change, or remove information embedded in a file.
+      - list:
+        - listitem: ✓ Search fields grouped by file, track, or chapter
+        - listitem: ✓ Remove hidden camera and processing data
+    - article:
+      - figure:
+        - img "The Edit photos window in Tangerine"
+      - text: Images
+      - heading "Edit photos" [level=2]
+      - paragraph: Adjust a photo with a live preview and export the result as a new file.
+      - list:
+        - listitem: ✓ Dehaze, clarity, grain, and noise reduction
+        - listitem: ✓ Fine controls for light, color, and detail
+    - article:
+      - figure:
+        - img "The Annotate photos window in Tangerine"
+      - text: Images
+      - heading "Annotate photos" [level=2]
+      - paragraph: Mark up a photo with arrows, text, shapes, and callouts.
+      - list:
+        - listitem: ✓ Add numbered labels, magnifiers, or images
+        - listitem: ✓ Draw or highlight directly on the photo
+    - article:
+      - figure:
+        - img "The Add a background window in Tangerine"
+      - text: Images
+      - heading "Add a background" [level=2]
+      - paragraph: Place a photo on a new canvas for clean framed images and social posts.
+      - list:
+        - listitem: ✓ Use another image as the background
+        - listitem: ✓ Add blur, rounded corners, and shadow
+    - article:
+      - figure:
+        - img "The Crop images window in Tangerine"
+      - text: Images
+      - heading "Crop images" [level=2]
+      - paragraph: Choose the exact area and dimensions to keep from an image.
+      - list:
+        - listitem: ✓ Enter exact pixel dimensions
+        - listitem: ✓ Use preset or custom aspect ratios
+    - article:
+      - figure:
+        - img "The Redact photos window in Tangerine"
+      - text: Images
+      - heading "Redact photos" [level=2]
+      - paragraph: Cover private parts of a photo with a solid color or blur.
+      - list:
+        - listitem: ✓ Detect faces and text locally
+        - listitem: ✓ Layer several movable redaction areas
+    - article:
+      - figure:
+        - img "The Create a collage window in Tangerine"
+      - text: Images
+      - heading "Create a collage" [level=2]
+      - paragraph: Arrange several images into one finished composition.
+      - list:
+        - listitem: ✓ Grid, row, column, and featured layouts
+        - listitem: ✓ Set final dimensions, spacing, corners, and background
+    - article:
+      - figure:
+        - img "The Trim video window in Tangerine"
+      - text: Video
+      - heading "Trim video" [level=2]
+      - paragraph: Keep one precise section of a video and save it as a new file.
+      - list:
+        - listitem: ✓ Step through the video frame by frame
+        - listitem: ✓ Enter precise start and end timecodes
+    - article:
+      - figure:
+        - img "The Crop video window in Tangerine"
+      - text: Video
+      - heading "Crop video" [level=2]
+      - paragraph: Reframe a video while preserving its original audio.
+      - list:
+        - listitem: ✓ Enter exact output dimensions
+        - listitem: ✓ Keep the original audio
+    - article:
+      - figure:
+        - img "The Change video speed window in Tangerine"
+      - text: Video
+      - heading "Change video speed" [level=2]
+      - paragraph: Create a slower or faster copy of a video.
+      - list:
+        - listitem: ✓ Preserve audio pitch
+        - listitem: ✓ Works with silent videos
+    - article:
+      - figure:
+        - img "The Join videos window in Tangerine"
+      - text: Video
+      - heading "Join videos" [level=2]
+      - paragraph: Arrange several clips and combine them into a single MP4.
+      - list:
+        - listitem: ✓ Mix MP4, MOV, and MKV clips
+        - listitem: ✓ Use the first clip as the output canvas
+    - article:
+      - figure:
+        - img "The Save video frames window in Tangerine"
+      - text: Video
+      - heading "Save video frames" [level=2]
+      - paragraph: Choose exact frames from a video and export them as images.
+      - list:
+        - listitem: ✓ Choose frames one step at a time
+        - listitem: ✓ Export full-resolution PNGs
+    - article:
+      - figure:
+        - img "The Split video window in Tangerine"
+      - text: Video
+      - heading "Split video" [level=2]
+      - paragraph: Divide one video into separate clips at exact points.
+      - list:
+        - listitem: ✓ Split at custom points or into equal parts
+        - listitem: ✓ Place every output clip in one folder
+    - article:
+      - figure:
+        - img "The Redact video window in Tangerine"
+      - text: Video
+      - heading "Redact video" [level=2]
+      - paragraph: Cover sensitive areas for all or part of a video.
+      - list:
+        - listitem: ✓ Give each redaction its own time range
+        - listitem: ✓ Use solid colors or blur
+    - article:
+      - figure:
+        - img "The Normalize volume window in Tangerine"
+      - text: Audio
+      - heading "Normalize volume" [level=2]
+      - paragraph: Make recordings easier to hear at a consistent level.
+      - list:
+        - listitem: ✓ Control loudness range and true peak
+        - listitem: ✓ Compare input and output levels
+    - article:
+      - figure:
+        - img "The Create an audio visualizer window in Tangerine"
+      - text: Audio
+      - heading "Create an audio visualizer" [level=2]
+      - paragraph: Turn audio into a shareable MP4 with a waveform or still image.
+      - list:
+        - listitem: ✓ Use an animated waveform or a still image
+        - listitem: ✓ Choose landscape, portrait, or square video
+    - article:
+      - figure:
+        - img "The Trim audio window in Tangerine"
+      - text: Audio
+      - heading "Trim audio" [level=2]
+      - paragraph: Keep one section of a recording with waveform-level control.
+      - list:
+        - listitem: ✓ Remove silence only from the beginning and end
+        - listitem: ✓ Enter exact start and end times
+    - article:
+      - figure:
+        - img "The Convert audio channels window in Tangerine"
+      - text: Audio
+      - heading "Convert audio channels" [level=2]
+      - paragraph: Convert a recording to mono or stereo and control each channel.
+      - list:
+        - listitem: ✓ Set left and right volume independently
+        - listitem: ✓ Preview either channel on its own
+    - article:
+      - figure:
+        - img "The Bleep audio window in Tangerine"
+      - text: Audio
+      - heading "Bleep audio" [level=2]
+      - paragraph: Replace sensitive parts of a recording with a bleep.
+      - list:
+        - listitem: ✓ Move a whole bleep range or fine-tune its edges
+        - listitem: ✓ Compare original and bleeped playback
+    - article:
+      - figure:
+        - img "The Merge PDFs window in Tangerine"
+      - text: PDF
+      - heading "Merge PDFs" [level=2]
+      - paragraph: Combine several PDFs into one document.
+      - list:
+        - listitem: ✓ Start with the Finder selection order
+        - listitem: ✓ Reorder documents before merging
+    - article:
+      - figure:
+        - img "The Organize PDF pages window in Tangerine"
+      - text: PDF
+      - heading "Organize PDF pages" [level=2]
+      - paragraph: Edit the page order and structure of a PDF visually.
+      - list:
+        - listitem: ✓ Rotate, duplicate, or remove individual pages
+  - region "Work with files without uploading them.":
+    - heading "Work with files without uploading them." [level=2]
+    - paragraph: Tangerine runs every conversion and file tool locally on your Mac.
+    - link "Download Tangerine on the Mac App Store":
+      - /url: https://apps.apple.com/us/app/tangerine-file-converter/id6813034065?mt=12
+      - img "Download on the Mac App Store"
+- contentinfo:
+  - link "Tangerine":
+    - /url: /
+    - text: Tangerine
+  - link "Press kit":
+    - /url: /press
+  - link "Privacy":
+    - /url: /privacy
+  - link "Contact support":
+    - /url: mailto:hello@leapstudio.io?subject=RE%3A%20Tangerine%20App
+  - link "Request feature":
+    - /url: mailto:hello@leapstudio.io?subject=RE%3A%20Tangerine%20Feature%20Request

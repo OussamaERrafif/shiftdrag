@@ -1,0 +1,4 @@
+# Optional offline PDF engine; install into a full Windows Python 3.12 runtime.
+pypdf==6.10.0
+pypdfium2==5.14.0
+Pillow==12.3.0

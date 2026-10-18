@@ -1,0 +1,13 @@
+case,repeat,milliseconds,bytes
+image-jpeg,0,536,2902679
+image-jpeg,1,284,2902679
+image-jpeg,2,226,2902679
+image-rotate,0,973,11535552
+image-rotate,1,944,11535552
+image-rotate,2,953,11535552
+video-convert,0,942,1324286
+video-convert,1,876,1324286
+video-convert,2,830,1324286
+video-mute,0,142,1400130
+video-mute,1,152,1400130
+video-mute,2,145,1400130
