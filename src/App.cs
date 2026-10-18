@@ -31,6 +31,7 @@ namespace ShiftDrag {
    Prefs=Preferences.Load();Engine=new Engine(Prefs);
    using(var reader=System.Xml.XmlReader.Create(Path.Combine(AppDomain.CurrentDomain.BaseDirectory,"Main.xaml")))main=(Window)XamlReader.Load(reader);
    Resources=main.Resources;MainWindow=main;body=Get<StackPanel>("PageBody");home=body.Children.Cast<UIElement>().ToArray();
+   var brand=BrandMark();Get<Image>("BrandMark").Source=brand;main.Icon=brand;
    main.PreviewKeyDown+=(s,e)=>{if(wheel!=null&&wheel.IsVisible&&!DragWatcher.LeftDown)wheel.HandleKey(e);};
    main.Closing+=(s,e)=>{if(!quitting){e.Cancel=true;main.Hide();}};
    main.StateChanged+=(s,e)=>{if(main.WindowState==WindowState.Minimized)main.Hide();};
@@ -42,14 +43,13 @@ namespace ShiftDrag {
    var demo=new WheelDrawing{Width=380,Height=380,Preview=true,Glass=true,Selected=0,Items=new List<Operation>{new Operation("","PNG",""),new Operation("","WEBP",""),new Operation("","TIFF",""),new Operation("","PDF",""),new Operation("","JPG","")},Center="Convert"};
    demo.RenderTransform=new ScaleTransform(.64,.64);Canvas.SetLeft(demo,7);Canvas.SetTop(demo,-7);Get<Canvas>("HeroWheel").Children.Add(demo);
    tray=new Forms.NotifyIcon{Text="ShiftDrag · drag a file, tap Shift",Visible=true,Icon=MakeIcon()};var menu=new Forms.ContextMenuStrip();
-   main.Icon=System.Windows.Interop.Imaging.CreateBitmapSourceFromHIcon(tray.Icon.Handle,Int32Rect.Empty,System.Windows.Media.Imaging.BitmapSizeOptions.FromEmptyOptions());
    menu.Items.Add("Open ShiftDrag",null,(s,e)=>ShowMain());menu.Items.Add("Choose files…",null,(s,e)=>{ShowMain();Browse();});menu.Items.Add("Floating shelf",null,(s,e)=>ShowShelf());menu.Items.Add("Pause / resume",null,(s,e)=>Get<Button>("EnabledButton").RaiseEvent(new RoutedEventArgs(System.Windows.Controls.Primitives.ButtonBase.ClickEvent)));menu.Items.Add(new Forms.ToolStripSeparator());menu.Items.Add("Quit ShiftDrag",null,(s,e)=>Quit());tray.ContextMenuStrip=menu;tray.MouseClick+=(s,e)=>{if(e.Button==Forms.MouseButtons.Left)ShowMain();};
    try{watcher=new DragWatcher(mode=>{if(Prefs.Enabled)OpenWheel(mode,null);},()=>{if(wheel!=null)wheel.Close();});watcher.Enabled=Prefs.Enabled;}catch(Exception ex){Prefs.Enabled=false;Status("Drag shortcuts unavailable: "+ex.Message);}
    RefreshEnabled();if(!args.Contains("--tray"))main.Show();
    var initialFiles=args.Where(p=>File.Exists(p)||Directory.Exists(p)).Select(Path.GetFullPath).ToArray();if(initialFiles.Length>0)Dispatcher.BeginInvoke(new Action(()=>OpenWheel("Convert",initialFiles)));
   }
-  static System.Drawing.Icon MakeIcon(){using(var b=new System.Drawing.Bitmap(32,32))using(var g=System.Drawing.Graphics.FromImage(b)){g.SmoothingMode=System.Drawing.Drawing2D.SmoothingMode.AntiAlias;g.Clear(System.Drawing.Color.Transparent);using(var brush=new System.Drawing.SolidBrush(System.Drawing.Color.FromArgb(243,107,50)))g.FillEllipse(brush,1,1,30,30);using(var pen=new System.Drawing.Pen(System.Drawing.Color.White,3)){g.DrawLine(pen,10,23,23,10);g.DrawLine(pen,13,10,23,10);g.DrawLine(pen,23,10,23,20);}IntPtr h=b.GetHicon();try{return (System.Drawing.Icon)System.Drawing.Icon.FromHandle(h).Clone();}finally{DestroyIcon(h);}}}
-  [System.Runtime.InteropServices.DllImport("user32.dll")]static extern bool DestroyIcon(IntPtr h);
+  static System.Windows.Media.Imaging.BitmapSource BrandMark(){using(var stream=typeof(App).Assembly.GetManifestResourceStream("ShiftDrag.Brand.png")){var image=new System.Windows.Media.Imaging.BitmapImage();image.BeginInit();image.CacheOption=System.Windows.Media.Imaging.BitmapCacheOption.OnLoad;image.StreamSource=stream;image.EndInit();image.Freeze();return image;}}
+  static System.Drawing.Icon MakeIcon(){using(var stream=typeof(App).Assembly.GetManifestResourceStream("ShiftDrag.Brand.ico"))using(var icon=new System.Drawing.Icon(stream,Forms.SystemInformation.SmallIconSize))return (System.Drawing.Icon)icon.Clone();}
   [System.Runtime.InteropServices.DllImport("user32.dll",CharSet=System.Runtime.InteropServices.CharSet.Unicode)]static extern IntPtr FindWindow(string cls,string title);
   [System.Runtime.InteropServices.DllImport("user32.dll")]static extern bool ShowWindowAsync(IntPtr window,int command);
   [System.Runtime.InteropServices.DllImport("user32.dll")]static extern bool SetForegroundWindow(IntPtr window);

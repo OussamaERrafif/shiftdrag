@@ -2,7 +2,7 @@
 
 ## The window disappeared
 
-Minimizing or closing hides ShiftDrag from the taskbar and leaves its icon in the notification area, possibly inside Windows' hidden-icons popup. Click the orange arrow icon to reopen. Use the icon's right-click **Quit** command to stop it completely. To rebuild the executable, quit first.
+Minimizing or closing hides ShiftDrag from the taskbar and leaves its icon in the notification area, possibly inside Windows' hidden-icons popup. Click the violet icon with an orange ring and white arrow to reopen. Use the icon's right-click **Quit** command to stop it completely. To rebuild the executable, quit first.
 
 ## The shortcut does not open the wheel
 

@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- New radial-ring and drag-arrow identity, with an editable vector and transparent PNG exports.
+- Matching sidebar, tray, window, and executable icons; native ICO includes nine resolutions.
+- Reproducible WPF asset export script and brand guide.
+
 ## 0.2 — 2026-10-18
 
 ### Added

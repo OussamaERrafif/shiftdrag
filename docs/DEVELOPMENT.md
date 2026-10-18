@@ -77,6 +77,8 @@ This creates `dist/ShiftDrag-Windows.zip`, with a `ShiftDrag/` folder containing
 | `src/pdf_engine.py` | Local PDF rendering, extraction, and page operations |
 | `src/SelfTests.cs` | Functional and regression checks |
 | `src/app.manifest` | Windows compatibility, DPI, normal-user execution |
+| `assets/brand/`, `docs/assets/mark.svg` | Exported icons and editable logo source |
+| `scripts/export-brand.ps1` | Reproducible Windows icon/PNG generation |
 | `benchmarks/` | Measurement runner, CSVs, analysis, and report |
 | `docs/`, `research/` | Product/developer guides, screenshots, reference investigation |
 | `.github/workflows/build.yml` | Windows compilation and available self-tests |

@@ -6,13 +6,13 @@ These captures show the actual v0.2 Windows application. They are not mockups.
 
 ![ShiftDrag workspace](assets/workspace.jpg)
 
-The workspace offers file selection, drag-and-drop, quick image tools, tray status, and navigation to the floating shelf, activity, and settings.
+The workspace offers file selection, drag-and-drop, quick image tools, tray status, and navigation to the floating shelf, activity, and settings. This capture includes the updated [radial-ring logo](BRAND.md).
 
 ## Glass-style tools wheel
 
 ![Transparent tools wheel](assets/glass-wheel.jpg)
 
-The wheel uses per-pixel transparency with translucent gradients and a purple selection. The capture shows page two of the image tools and a selected vertical flip. The appearance uses glass-style tinting; native Acrylic backdrop blur is disabled because it produced an opaque rectangle in the tested WPF overlay.
+The wheel uses per-pixel transparency with translucent gradients and a purple selection. This earlier capture shows page two of the image tools and a selected vertical flip, before the logo refresh. The appearance uses glass-style tinting; native Acrylic backdrop blur is disabled because it produced an opaque rectangle in the tested WPF overlay.
 
 ## Reference captures
 

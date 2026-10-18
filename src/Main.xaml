@@ -12,7 +12,7 @@
   <Grid.ColumnDefinitions><ColumnDefinition Width="210"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
   <Border Background="#EEF1F9" BorderBrush="#E0E6F2" BorderThickness="0,0,1,0">
    <Grid Margin="18,28,18,20"><Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
-    <StackPanel><StackPanel Orientation="Horizontal" Margin="10,0,0,5"><Border Width="31" Height="31" Background="#F36B32" CornerRadius="11"><TextBlock Text="↗" Foreground="White" FontWeight="Bold" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-3,0,0"/></Border><TextBlock Text="ShiftDrag" FontSize="21" FontWeight="SemiBold" Margin="10,0,0,0" VerticalAlignment="Center"/></StackPanel><TextBlock Text="A LITTLE LESS BUSYWORK" FontSize="9" Foreground="#858B80" Margin="11,10,0,34" FontWeight="SemiBold"/></StackPanel>
+    <StackPanel><StackPanel Orientation="Horizontal" Margin="8,0,0,5"><Image x:Name="BrandMark" Width="36" Height="36" Stretch="Uniform" RenderOptions.BitmapScalingMode="HighQuality"/><TextBlock Text="ShiftDrag" FontSize="21" FontWeight="SemiBold" Margin="8,0,0,0" VerticalAlignment="Center"/></StackPanel><TextBlock Text="A LITTLE LESS BUSYWORK" FontSize="9" Foreground="#858B80" Margin="11,10,0,34" FontWeight="SemiBold"/></StackPanel>
     <StackPanel Grid.Row="1" Margin="0,115,0,0" VerticalAlignment="Top">
      <Button x:Name="HomeNav" Style="{StaticResource Nav}" Content="⌂     Workspace" Background="#FFFFFF" FontWeight="SemiBold"/>
      <Button x:Name="ShelfNav" Style="{StaticResource Nav}" Content="▧     Floating shelf"/>

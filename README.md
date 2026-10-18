@@ -106,6 +106,7 @@ The development build passed **46 functional checks** with PDF and FFmpeg availa
 | [Troubleshooting](docs/TROUBLESHOOTING.md) | Missing engines, tray behavior, drag issues, and diagnostics |
 | [Privacy](docs/PRIVACY.md) | Local processing, settings, logs, and temporary files |
 | [Screenshots](docs/SCREENSHOTS.md) | Actual app captures and reference provenance |
+| [Logo and brand assets](docs/BRAND.md) | Vector source, Windows icons, colors, and regeneration |
 | [Changelog](CHANGELOG.md) | Changes in v0.2 |
 | [Research](research/RESEARCH.md) | Website crawl, reference screenshots, demo observations |
 
